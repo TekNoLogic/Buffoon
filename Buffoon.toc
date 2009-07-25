@@ -1,0 +1,20 @@
+## Interface: 30100
+
+## Title: Buffoon
+## Notes: Show who cast what buff via LDB
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Misc
+
+## OptionalDeps: tekDebug, tekErr
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+LibStub.lua
+CallbackHandler-1.0.lua
+LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+Buffoon.lua
